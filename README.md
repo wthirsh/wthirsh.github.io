@@ -17,5 +17,6 @@
 2. Open `_config.yml` and change the line `logo: /assets/IMG/template_IMG.png` to point to your new image
 
 ### Adding content
+* You can create markdown files (.md) in your repository and navigate, such as this template: [`project.md`](project.md)
 * Check [this guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
 * When editing a markdown file, it is useful to wrap the text by selecting the *Soft wrap* option as shown: ![](instr_wrap.png)
