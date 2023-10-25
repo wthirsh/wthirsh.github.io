@@ -1,16 +1,16 @@
 # atmosalex.github.io
 
-## Steps to Create a Website for your AOS C111/204 Final Project
+## Creating a Website for your AOS C111/204 Final Project
 
 ### Copy this site as a template
-1.	Follow steps to create repository [user].github.io without a README file, where [user] is your GitHub username
+1.	Follow steps to create repository *[user].github.io* without a README file, where *[user]* is your GitHub username
 2.	Clone this template repository
-3.	Go to Settings > Pages > 
-4.	Check build, then navigate to [user].github.io in your browser to see your site
+3.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: ![](instr_bd.png)
+4.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to [user].github.io in your browser to see your site.
 
 ### Change the theme (optional)
-1.	Choose your favourite theme from https://pages.github.com/themes/
-2.	Replace `theme: jekyll-theme-minimal` with `theme: jekyll-theme-[name]` where [name] is the name of the theme from the above list.
+1.	Choose your favourite theme [from this page](https://pages.github.com/themes/)
+2.	Replace `theme: jekyll-theme-minimal` with `theme: jekyll-theme-[name]` where `[name]` is the name of the theme from the above list
 
 ### Change your site logo (optional)
 1. In your repository, upload a logo or profile picture to the `assets/IMG/` directory
@@ -18,4 +18,4 @@
 
 ### Adding content
 * Check [this guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
-* 
+* When editing a markdown file, it is useful to wrap the text by selecting the *Soft wrap* option as shown: ![](instr_wrap.png)
