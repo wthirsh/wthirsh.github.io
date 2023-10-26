@@ -1,10 +1,12 @@
 Hi class, welcome to the AOS C111/204 final project! <img align="right" width="200" height="200" src="/assets/IMG/template_logo.png">
 
-For this project, you will be applying your skills to model some real-world data of your own choosing, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. **The first step** is to set up a project website like this one by following the instructions below. 
+For this project, you will be applying your skills to train a machine learning model using real-world data, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. The first step is to set up a project website like this one by following the instructions below. 
 
-## How does this work?
+For this project, you do not need to create your own dataset, but try to find data that makes your project interesting and original. Whatever you choose, you should demonstrate the ability to preprocess the data to help with modeling. 
 
-Using GitHub pages, we can write a website using markdown syntax - the same syntax we use to write comments in Google Colab notebooks. GitHub pages then takes our markdown file and renders it using a Jekyll theme. [Click here to see the markdown source code for this page](https://github.com/atmosalex/atmosalex.github.io/blob/main/README.md?plain=1).
+## How does this website work?
+
+Using GitHub pages, you can write a website using markdown syntax - the same syntax we use to write comments in Google Colab notebooks. GitHub pages then takes our markdown file and renders it as a web page using a Jekyll theme. [Click here to see the markdown source code for this page](https://github.com/atmosalex/atmosalex.github.io/blob/main/README.md?plain=1).
 
 ## Setting up your Project Website
 
@@ -46,7 +48,7 @@ Your final project has three components: a dataset, a report, and your code.
 
 ### Dataset
 
-**You do not need to create your own dataset** for this report. However, a link to the dataset you used must be submitted on BruinLearn so that your course instructor can use it to run your code. To do this, it might be easiest to upload the dataset to Google Drive, then share a link (click *Share* then *Copy link*).
+A link to the dataset you used must be submitted on BruinLearn so that your course instructor can use it to run your code. To do this, it might be easiest to upload the dataset to Google Drive, then share a link (click *Share* then *Copy link*). If your dataset is too big to upload, try to find a way to reduce its size, or speak with your instructor if this is not possible.
 
 ### Report
 
