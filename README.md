@@ -1,12 +1,15 @@
 **Hi class, welcome to the AOS C111/204 final project!** <img align="right" width="220" height="220" src="/assets/IMG/template_logo.png">
 
-For this project, you will be applying your skills to train a machine learning model using real-world data, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. The first step is to set up a project website like this one by following the instructions below. 
+For this project, you will be applying your skills to train a machine learning model using real-world data, then publishing a report on your own website.
 
 * To get data for your project, you could:
   * use **your own data** from a separate research activity
   * **scour the internet** to find something original, then preprocess it yourself - for example, [here is a data catalog for Los Angeles](https://data.lacity.org/), maybe you can find something interesting here, or look for data from your home town/city!
   * browse an archive of data designed for machine learning problems, such as the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/datasets)
+
 * Your report should be in the region of 2000-2500 words with three to four figures, and written in a scientific language and style. [This template page](/project.md) gives an example structure that you could use, but feel free to make it your own.
+
+Your website will be a great addition to your CV, and a place to host future projects too since it doubles as a GitHub repository. The first step is to set up a project website like this one by following the instructions below. 
 
 ## How does this website work?
 
