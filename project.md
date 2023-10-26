@@ -2,13 +2,11 @@
 layout: default
 ---
 
-## Welcome to another page
+## My Project
 
-_yay_
+I applied machine learning techniques to investigate... Below is my report.
 
 [back](./)
-
-
 
 ## Introduction 
 
