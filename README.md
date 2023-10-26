@@ -1,7 +1,3 @@
-# atmosalex.github.io
-
-***
-
 ## Creating a Website to show your Final Project
 
 ### Copy this site as a template
