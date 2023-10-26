@@ -10,7 +10,7 @@
 3.	From your new repository, you should see a *Quick setup* guide. Scroll down to the bottom of the page and click *Import code*, as shown: [![screenshot][2]][2]
 4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then hit enter.
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
-6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to [user].github.io in your browser to see your site!
+6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to user.github.io to see your site, which should be a copy of this one!
 
 [1]: /assets/IMG/instr_new.png
 [2]: /assets/IMG/instr_import.png
@@ -18,7 +18,7 @@
 
 ### Change the theme (optional)
 1.	Choose your favourite theme [from this page](https://pages.github.com/themes/)
-2.	Open `_config.yml` and replace `theme: jekyll-theme-minimal` with `theme: jekyll-theme-[name]` where `[name]` is the name of the theme from the above list
+2.	Open `_config.yml` and replace `theme: jekyll-theme-minimal` with `theme: jekyll-theme-name` where `name` is the name of the theme from the above list
 
 ### Change your site logo (optional)
 1. In your repository, upload a logo or profile picture to the `assets/IMG/` directory
