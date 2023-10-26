@@ -5,8 +5,8 @@
 ## Creating a Website for your AOS C111/204 Final Project
 
 ### Copy this site as a template
-1.  Create an account on GitHub
-2.	Create a new GitHub repository with the name *[user].github.io*, where *[user]* is your GitHub username. Select *public* and do not tick *Add a README file*, as shown: [![screenshot][1]][1]
+1.  Create [a GitHub account](https://github.com/)
+2.	Create a new GitHub repository with the name **user.github.io**, where **user** is your GitHub username as shown below. Select *public* and do not tick *Add a README file*. [![screenshot][1]][1]
 3.	From your new repository, you should see a *Quick setup* guide. Scroll down to the bottom of the page and click *Import code*, as shown: [![screenshot][2]][2]
 4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then hit enter.
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
