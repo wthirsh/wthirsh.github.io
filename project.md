@@ -17,9 +17,9 @@ Here is an overview of the dataset, how it was obtained and the preprocessing st
 
 ## Modelling
 
-More details about the machine learning approach, and why this was deemed appropriate for the dataset. 
+Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
 
-How the method was developed and improved upon if necessary. The steps required to repeat this method.
+This is how the method was developed.
 
 ## Results
 
@@ -27,11 +27,11 @@ Figure X shows... [description of Figure X].
 
 ## Discussion
 
-From Figure X, one can see that... [interpretation Figure X].
+From Figure X, one can see that... [interpretation of Figure X].
 
 ## Conclusion
 
-Here is a brief summary of what was achieved. The following conclusions can be made:
+Here is a brief summary. From this work, the following conclusions can be made:
 * first conclusion
 * second conclusion
 
