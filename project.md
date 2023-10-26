@@ -1,3 +1,15 @@
+---
+layout: default
+---
+
+## Welcome to another page
+
+_yay_
+
+[back](./)
+
+
+
 ## Introduction 
 
 Here is a summary description of the topic. Here is the problem. This is why the problem is important.
