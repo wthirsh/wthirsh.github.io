@@ -1,8 +1,5 @@
 ## Setting up your Project Website
 
-<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">
-
-
 ### How to copy this site as a template
 1.  Create [a GitHub account](https://github.com/)
 2.	Create a new GitHub repository with the name **user.github.io**, where **user** is your GitHub username as shown below. Select *public* and do not tick *Add a README file*. [![screenshot][1]][1]
@@ -27,9 +24,9 @@
 * The `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see.
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to `project.md`](project.md)
-* When editing a markdown file on GitHub's website, it is useful to wrap text by selecting the *Soft wrap* option as shown: [![screenshot][4]][4]
-  
-[4]: /assets/IMG/instr_wrap.png
+* When editing a markdown file on GitHub's website, it is useful to wrap text by selecting the *Soft wrap* option as shown: [![screenshot][/assets/IMG/instr_wrap.png]]
+* You can write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed using the following code (check the source of this file!): `<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">`
+<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png"> 
 
 ***
 
