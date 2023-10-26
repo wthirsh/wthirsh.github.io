@@ -5,8 +5,10 @@
 ### Copy this site as a template
 1.	Follow steps to create repository *[user].github.io* without a README file, where *[user]* is your GitHub username
 2.	Clone this template repository
-3.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: ![](/assets/IMG/instr_bd.png)
+3.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][1]][1]
 4.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to [user].github.io in your browser to see your site.
+
+[1]: /assets/IMG/instr_bd.png
 
 ### Change the theme (optional)
 1.	Choose your favourite theme [from this page](https://pages.github.com/themes/)
