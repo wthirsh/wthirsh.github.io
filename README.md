@@ -2,7 +2,7 @@
 
 ***
 
-## Creating a Website for your AOS C111/204 Final Project
+## Creating a Website to show your Final Project
 
 ### Copy this site as a template
 1.  Create [a GitHub account](https://github.com/)
@@ -26,7 +26,7 @@
 
 ### Adding content
 * The `README.md` file acts like your home page. Replace its contents with whatever you want the world to see.
-* You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [`project.md`](project.md)
+* You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to `project.md`](project.md)
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
 * When writing in a markdown file, it is useful to wrap text by selecting the *Soft wrap* option as shown: [![screenshot][4]][4]
   
@@ -34,6 +34,8 @@
 
 ***
 
-## Include a link to your project from this page
+## Including a link to your project from this page
 
-Here is a template file for your report: [`project.md`](project.md)
+Your final report will be hosted on your own website. You have various options to do this:
+* One option is to write the whole report in markdown, then include it as a page on the site. To get you started with this, here is a template file to modify: [`project.md`](project.md).
+* Another option is to write the report using a word processor or Latex, then export it as a .pdf file. Upload the .pdf file to the `assets` directory, and link to it [like so](/assets/project_demo.pdf).
