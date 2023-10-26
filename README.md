@@ -12,7 +12,7 @@
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
 6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to [user].github.io in your browser to see your site!
 
-[1]: /assets/IMG/instr_create.png
+[1]: /assets/IMG/instr_new.png
 [2]: /assets/IMG/instr_import.png
 [3]: /assets/IMG/instr_bd.png
 
