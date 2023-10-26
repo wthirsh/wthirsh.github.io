@@ -1,6 +1,6 @@
 ## Setting up your Project Website
 
-<img align="right" width="150" height="150" src="/assets/IMG/template_IMG.png">
+<img align="right" width="240" height="240" src="/assets/IMG/template_IMG.png">
 
 
 ### How to copy this site as a template
@@ -36,5 +36,5 @@
 ## Linking to your Project
 
 Your final report should be delivered via your website. There are two components required:
-* A link to a separate repository on GitHub with your project code (best option), or a link to download the code from a directory in your website repository.
-* A link to download the report. It is recommended to write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. Link to it [like so](/assets/project_demo.pdf).
+* A link to a separate repository on GitHub with your project code (best option), or a link to download the code from a directory in your website repository, i.e. you could place the code in the `assets` directory.
+* A link to the report. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report straight onto the website - [here is](/project.md) a template for that.
