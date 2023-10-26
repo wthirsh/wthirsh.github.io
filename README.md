@@ -1,4 +1,4 @@
-Hi class, welcome to the AOS C111/204 final project! ![screenshot](/assets/IMG/template_IMG.png)
+Hi class, welcome to the AOS C111/204 final project! ![screenshot](/assets/IMG/template_logo.png)
 
 For this project, you will be applying your skills to model some real-world data of your own choosing, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. **The first step** is to set up a project website like this one by following the instructions below. 
 
