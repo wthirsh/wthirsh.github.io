@@ -1,6 +1,7 @@
 ## Setting up your Project Website
 
-<img align="right" width="100" height="100" src="https://picsum.photos/100/100">
+<img align="right" width="150" height="150" src="/assets/IMG/template_IMG.png">
+
 
 ### How to copy this site as a template
 1.  Create [a GitHub account](https://github.com/)
