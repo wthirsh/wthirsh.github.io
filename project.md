@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## My Project
 
 I applied machine learning techniques to investigate... Below is my report.
