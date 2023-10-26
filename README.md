@@ -5,7 +5,7 @@
 ### Copy this site as a template
 1.	Follow steps to create repository *[user].github.io* without a README file, where *[user]* is your GitHub username
 2.	Clone this template repository
-3.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: ![](/assets/IMG/instr_bd.png)
+3.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: ![](/assets/IMG/instr_bd.png){: width="250" }
 4.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to [user].github.io in your browser to see your site.
 
 ### Change the theme (optional)
@@ -20,7 +20,7 @@
 * This file acts like your home page. Replace its contents with whatever you want the world to see.
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [`project.md`](project.md)
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
-* When writing in a markdown file, it is useful to wrap the text by selecting the *Soft wrap* option as shown: ![](/assets/IMG/instr_wrap.png)
+* When writing in a markdown file, it is useful to wrap the text by selecting the *Soft wrap* option as shown: ![](/assets/IMG/instr_wrap.png){: width="250" }
 
 ## Include a link to your project from this page
 Here is a template file for your report: [`project.md`](project.md)
