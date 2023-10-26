@@ -23,7 +23,7 @@
 ***
 
 ## Guide to Adding Content
-* The `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see.
+* The `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see by editing the file on GitHub.
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to `project.md`](project.md)
 * When editing a markdown file on GitHub's website, it is useful to wrap text by selecting the *Soft wrap* option as shown: [![screenshot][/assets/IMG/instr_wrap.png]]
