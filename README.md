@@ -1,4 +1,4 @@
-## Creating a Website to show your Final Project
+This page contains instructions on how to create a website to show your final project.
 
 ### How to copy this site as a template
 1.  Create [a GitHub account](https://github.com/)
