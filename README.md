@@ -1,10 +1,12 @@
 ## Setting up your Project Website
 
+<img align="right" width="100" height="100" src="https://picsum.photos/100/100">
+
 ### How to copy this site as a template
 1.  Create [a GitHub account](https://github.com/)
 2.	Create a new GitHub repository with the name **user.github.io**, where **user** is your GitHub username as shown below. Select *public* and do not tick *Add a README file*. [![screenshot][1]][1]
 3.	From your new repository, you should see a *Quick setup* guide. Scroll down to the bottom of the page and click *Import code*, as shown: [![screenshot][2]][2]
-4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then hit enter.
+4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then proceed.
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
 6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to user.github.io to see your site, which should be a copy of this one!
 
