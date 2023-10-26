@@ -20,7 +20,9 @@
 1. Some themes, such as `jekyll-theme-minimal`, show a logo. In your repository, upload a logo or profile picture to the `assets/IMG/` directory
 2. Open `_config.yml` and modify the line `logo: /assets/IMG/template_IMG.png` to point to your new image
 
-### Adding content
+***
+
+## Guide to Adding Content
 * The `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see.
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to `project.md`](project.md)
@@ -33,5 +35,5 @@
 ## Linking to your Project
 
 Your final report should be delivered via your website. There are two components required:
-* A link to a separate repository on GitHub with your project code (best option), or a link to download the code from a directory in your website repository, i.e. you could place the code in the `assets` directory.
-* A link to the report. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report straight onto the website - [here is](/project.md) a template for that.
+1. A link to a separate repository on GitHub with your project code (best option), or a link to download the code from a directory in your website repository, i.e. you could place the code in the `assets` directory.
+2. A link to the report. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report straight onto the website - [here is](/project.md) a template for that.
