@@ -1,4 +1,4 @@
-# Name of my Project
+This is a project about...
 
 ## Introduction 
 
@@ -12,7 +12,7 @@ We did this to solve the problem. We concluded that...
 
 Here is an overview of the dataset, how it was obtained and the preprocessing steps taken, with some plots!
 
-![](assets/IMG/datapenguin.png){: width="700" }
+![](assets/IMG/datapenguin.png){: width="500" }
 
 *Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
 
