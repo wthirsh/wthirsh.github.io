@@ -1,3 +1,11 @@
+Hi class, welcome to the AOS C111/204 final project! ![screenshot](/assets/IMG/template_IMG.png)
+
+For this project, you will be applying your skills to model some real-world data of your own choosing, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. **The first step** is to set up a project website like this one by following the instructions below. 
+
+## How does this work?
+
+Using GitHub pages, we can write a website using markdown syntax - the same syntax we use to write comments in Google Colab notebooks. GitHub pages then takes our markdown file and renders it using a Jekyll theme. [Click here to see the markdown source code for this page](https://github.com/atmosalex/atmosalex.github.io/blob/main/README.md?plain=1).
+
 ## Setting up your Project Website
 
 ### How to copy this site as a template
@@ -13,8 +21,8 @@
 [3]: /assets/IMG/instr_bd.png
 
 ### How to change the theme (optional)
-1.	You can choose a different theme [from this page](https://pages.github.com/themes/).
-2.	Open `_config.yml` and replace the `theme:` line with `theme: jekyll-theme-name` where `name` is the name of the theme from the above list. **For the `minima` theme, use a shortened preface like so `theme: minima`**, the others seem to need the whole preface `theme: jekyll-theme-`. You can check the *Actions* tab (as in step 6. above) to make sure the site is building successfully.
+1.	You can choose any theme [listed on this page](https://pages.github.com/themes/), though some do not work as well on mobile devices.
+2.	From GitHub, edit `_config.yml` and replace the `theme:` line with `theme: jekyll-theme-name` where `name` is the name of the theme from the above list. **For the `minima` theme, use a shortened preface like so `theme: minima`**, the others seem to need the whole preface `theme: jekyll-theme-`. You can check the *Actions* tab (as in step 6. above) to make sure the site is building successfully.
 
 ### How to change your site logo (optional)
 1. Some themes, such as `jekyll-theme-minimal`, show a logo. In your repository, upload a logo or profile picture to the `assets/IMG/` directory
@@ -23,17 +31,27 @@
 ***
 
 ## Guide to Adding Content
-* The `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see by editing the file on GitHub.
+* Your repository's `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see by editing the file on GitHub.
 * If you want to turn this page into a CV or blog, etc., it may be useful to refer to a [guide for writing Markdown](https://www.markdownguide.org/basic-syntax/).
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to another file, `project.md`](project.md)
 * When editing a markdown file on GitHub, it is useful to wrap text by selecting the *Soft wrap* option as shown: ![screenshot](/assets/IMG/instr_wrap.png)
 * If you want to get even more technical, you can also write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed by writing the following (edit this file to see!): `<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">`
-<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png"> 
+<img align="right" width="674" height="400" src="/assets/IMG/template_frog.png"> 
 
 ***
 
-## Linking to your Project
+## Delivering your Project
 
-Your final report should be delivered via your website. There are two components required:
-1. A link to a separate repository on GitHub with your project code (best option), or a link to download the code from a directory in your website repository, i.e. you could place the code in the `assets` directory.
-2. A link to the report. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report straight onto the website - [here is](/project.md) a template for that.
+Your final project has three components: a dataset, a report, and your code.
+
+### Dataset
+
+**You do not need to create your own dataset** for this report. However, a link to the dataset you used must be submitted on BruinLearn so that your course instructor can use it to run your code. To do this, it might be easiest to upload the dataset to Google Drive, then share a link (click *Share* then *Copy link*).
+
+### Report
+
+Your report should be in the region of 5000 to 10000 words and delivred via your website. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report directly onto the website using another markdown page - [here is](/project.md) a template for that.
+
+### Code
+
+A link to your code must be submitted on BruinLearn, and the course instructor must be able to download and run your code using the dataset. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it.
