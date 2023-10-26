@@ -2,7 +2,7 @@
 
 For this project, you will be applying your skills to train a machine learning model using real-world data, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. The first step is to set up a project website like this one by following the instructions below. 
 
-For this project, you do not need to create your own dataset, but try to find data that makes your project interesting and original. Whatever you choose, you should demonstrate the ability to preprocess the data to help with modeling. 
+For this project, you do not need to create your own dataset, but try to find data that makes your project interesting and original. Whatever you choose, you should demonstrate the ability to preprocess the data to help with modeling. Your report should be in the region of 5000 words, and written using a scientific language and structure. For guidance on the basic structure, see the template page [here](/project.md).
 
 ## How does this website work?
 
@@ -16,7 +16,7 @@ Using GitHub pages, you can write a website using markdown syntax - the same syn
 3.	From your new repository, you should see a *Quick setup* guide. Scroll down to the bottom of the page and click *Import code*, as shown: [![screenshot][2]][2]
 4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then proceed.
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
-6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, **navigate to [username].github.io to see your site**, which should be a copy of this one!
+6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to **[username].github.io** to see your site, which should be a copy of this one!
 
 [1]: /assets/IMG/instr_create.png
 [2]: /assets/IMG/instr_import.png
@@ -52,8 +52,10 @@ A link to the dataset you used must be submitted on BruinLearn so that your cour
 
 ### Report
 
-Your report should be in the region of 5000 words and delivered via your website. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report directly onto the website using another markdown page - [here is](/project.md) a template for that.
+Your report should be **delivered via your website**. Submit a link to your website on BruinLearn so that your instructor can browse it to find your repot. 
+
+To make this simple, you can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report directly onto the website using another markdown page - [here is](/project.md) a template for that.
 
 ### Code
 
-A link to your code must be submitted on BruinLearn, and the course instructor must be able to download and run your code using the dataset. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it.
+A link to your code must be submitted on BruinLearn, and the course instructor must be able to download and run your code using the dataset. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it. 
