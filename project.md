@@ -6,7 +6,7 @@ layout: default
 
 I applied machine learning techniques to investigate... Below is my report.
 
-[back](./)
+***
 
 ## Introduction 
 
@@ -59,3 +59,6 @@ Here is how this work could be developed further in a future project.
 
 ## References
 [1] DALL-E 3
+
+[back](./)
+
