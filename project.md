@@ -1,12 +1,3 @@
-```python
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.datasets import make_classification
-X, y = make_classification(n_features=4, random_state=0)
-clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
-clf.fit(X, y)
-clf.predict([[0, 0, 0, 0]])
-```
-
 ## Introduction 
 
 Here is a summary description of the topic. Here is the problem. This is why the problem is important.
@@ -27,9 +18,16 @@ Here is an overview of the dataset, how it was obtained and the preprocessing st
 
 Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
 
-The model might involve optimizing some quantity. Markdown makes it easy to include equations:
+The model might involve optimizing some quantity. You can include snippets of code if it is helpful to explain things.
 
-$$IG(S,A) = H(S) - \sum_{v\in \mathrm{Values}(A)}\frac{S_v}{S} H(S_v)$$
+```python
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.datasets import make_classification
+X, y = make_classification(n_features=4, random_state=0)
+clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
+clf.fit(X, y)
+clf.predict([[0, 0, 0, 0]])
+```
 
 This is how the method was developed.
 
