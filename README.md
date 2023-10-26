@@ -26,7 +26,7 @@
 * The `README.md` file (the file you are reading now) acts like a home page. Replace its contents with whatever you want the world to see by editing the file on GitHub.
 * If you want to turn this page into a CV or blog, etc., it may be useful to refer to a [guide for writing Markdown](https://www.markdownguide.org/basic-syntax/).
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to another file, `project.md`](project.md)
-* When editing a markdown file on GitHub, it is useful to wrap text by selecting the *Soft wrap* option as shown: [screenshot][/assets/IMG/instr_wrap.png]
+* When editing a markdown file on GitHub, it is useful to wrap text by selecting the *Soft wrap* option as shown: [screenshot](/assets/IMG/instr_wrap.png)
 * If you want to get even more technical, you can also write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed by writing the following (edit this file to see!): `<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">`
 <img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png"> 
 
