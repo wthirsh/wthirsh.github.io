@@ -26,7 +26,7 @@ Using GitHub pages, we can write a website using markdown syntax - the same synt
 
 ### How to change your site logo (optional)
 1. Some themes, such as `jekyll-theme-minimal`, show a logo. In your repository, upload a logo or profile picture to the `assets/IMG/` directory
-2. Open `_config.yml` and modify the line `logo: /assets/IMG/template_IMG.png` to point to your new image
+2. Open `_config.yml` and modify the line `logo: /assets/IMG/template_logo.png` to point to your new image
 
 ***
 
