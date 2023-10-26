@@ -1,9 +1,10 @@
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+```python
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.datasets import make_classification
+X, y = make_classification(n_features=4, random_state=0)
+clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
+clf.fit(X, y)
+clf.predict([[0, 0, 0, 0]])
 ```
 
 ## Introduction 
