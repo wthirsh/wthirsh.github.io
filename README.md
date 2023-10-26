@@ -1,5 +1,7 @@
 # atmosalex.github.io
 
+***
+
 ## Creating a Website for your AOS C111/204 Final Project
 
 ### Copy this site as a template
@@ -22,6 +24,12 @@
 * This file acts like your home page. Replace its contents with whatever you want the world to see.
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [`project.md`](project.md)
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
-* When writing in a markdown file, it is useful to wrap the text by selecting the *Soft wrap* option as shown: ![](/assets/IMG/instr_wrap.png)
+* When writing in a markdown file, it is useful to wrap the text by selecting the *Soft wrap* option as shown: [![screenshot][2]][2]
+  
+[2]: /assets/IMG/instr_wrap.png
+
+***
+
 ## Include a link to your project from this page
+
 Here is a template file for your report: [`project.md`](project.md)
