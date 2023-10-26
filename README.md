@@ -13,7 +13,9 @@ Your website will be a great addition to your CV, and a place to host future pro
 
 ## How does this website work?
 
-Using GitHub pages, you can write a website using markdown syntax - the same syntax we use to write comments in Google Colab notebooks. GitHub pages then takes our markdown file and renders it as a web page using a Jekyll theme. [Click here to see the markdown source code for this page](https://github.com/atmosalex/atmosalex.github.io/blob/main/README.md?plain=1).
+First, check out the Github repository for this site: [https://github.com/atmosalex/atmosalex.github.io/](https://github.com/atmosalex/atmosalex.github.io/).
+
+Using GitHub pages, you can write a website using markdown syntax - the same syntax we use to write comments in Google Colab notebooks. GitHub pages then takes the markdown file and renders it as a web page using a Jekyll theme. The markdown source code for this page [is shown here.](https://github.com/atmosalex/atmosalex.github.io/blob/main/README.md?plain=1).
 
 ## Setting up your Project Website
 
