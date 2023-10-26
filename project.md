@@ -20,6 +20,10 @@ Here is an overview of the dataset, how it was obtained and the preprocessing st
 
 Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
 
+The model might involve optimizing some quantity. Markdown makes it easy to include equations:
+
+$$IG(S,A) = H(S) - \sum_{v\in \mathrm{Values}(A)}\frac{S_v}{S} H(S_v)$$
+
 This is how the method was developed.
 
 ## Results
