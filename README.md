@@ -25,7 +25,7 @@
 * Check a [guide to writing Markdown](https://www.markdownguide.org/basic-syntax/), or ask [ChatGPT](https://chat.openai.com/) for help.
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to `project.md`](project.md)
 * When editing a markdown file on GitHub's website, it is useful to wrap text by selecting the *Soft wrap* option as shown: [![screenshot][/assets/IMG/instr_wrap.png]]
-* You can write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed using the following code (check the source of this file!): `<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">`
+* You can write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed by writing the following (edit this file to see!): `<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">`
 <img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png"> 
 
 ***
