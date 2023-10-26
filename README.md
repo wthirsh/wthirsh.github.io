@@ -1,6 +1,6 @@
 ## Setting up your Project Website
 
-<img align="right" width="240" height="240" src="/assets/IMG/template_IMG.png">
+<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">
 
 
 ### How to copy this site as a template
