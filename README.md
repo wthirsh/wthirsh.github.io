@@ -50,7 +50,7 @@ Your final project has three components: a dataset, a report, and your code.
 
 ### Report
 
-Your report should be in the region of 5000 to 10000 words and delivred via your website. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report directly onto the website using another markdown page - [here is](/project.md) a template for that.
+Your report should be in the region of 5000 words and delivered via your website. You can write the report using a word processor or Latex, then export it as a .pdf file and upload it to the `assets` directory. You can then link to it [like so](/assets/project_demo.pdf). However, you can also type the report directly onto the website using another markdown page - [here is](/project.md) a template for that.
 
 ### Code
 
