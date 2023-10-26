@@ -2,7 +2,8 @@
 
 For this project, you will be applying your skills to train a machine learning model using real-world data, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. The first step is to set up a project website like this one by following the instructions below. 
 
-For this project, you do not need to create your own dataset, but try to find data that makes your project interesting and original. Whatever you choose, you should demonstrate the ability to preprocess the data to help with modeling. Your report should be in the region of 5000 words, and written using a scientific language and structure. For guidance on the basic structure, see the template page [here](/project.md).
+* For this project, you do not need to create your own dataset, but try to find data that makes your project interesting and original. Whatever you choose, you should demonstrate the ability to preprocess the data to help with modeling.
+* Your report should be in the region of 5000 words, and written in a scientific language and style. [This template page](/project.md) gives an example structure that you could use, but feel free to make it your own.
 
 ## How does this website work?
 
