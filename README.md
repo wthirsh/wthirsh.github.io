@@ -1,4 +1,4 @@
-Hi class, welcome to the AOS C111/204 final project! ![screenshot](/assets/IMG/template_logo.png)
+Hi class, welcome to the AOS C111/204 final project! <img align="right" width="200" height="200" src="/assets/IMG/template_logo.png">
 
 For this project, you will be applying your skills to model some real-world data of your own choosing, then publishing a report on your own website. Your website will be a great addition to your CV, and a place to host future projects too, since it doubles as a GitHub repository. **The first step** is to set up a project website like this one by following the instructions below. 
 
@@ -35,7 +35,7 @@ Using GitHub pages, we can write a website using markdown syntax - the same synt
 * If you want to turn this page into a CV or blog, etc., it may be useful to refer to a [guide for writing Markdown](https://www.markdownguide.org/basic-syntax/).
 * You can create other markdown files (.md) in your repository and navigate to them from this page using links, i.e.: [here is a link to another file, `project.md`](project.md)
 * When editing a markdown file on GitHub, it is useful to wrap text by selecting the *Soft wrap* option as shown: ![screenshot](/assets/IMG/instr_wrap.png)
-* If you want to get even more technical, you can also write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed by writing the following (edit this file to see!): `<img align="right" width="200" height="200" src="/assets/IMG/template_IMG.png">`
+* If you want to get even more technical, you can also write HTML in your .md files, and GitHub Pages will render it. For example, the image below is displayed by writing the following (edit this file to see!): `<img align="right" width="200" height="200" src="/assets/IMG/template_frog.png">`
 <img align="right" width="337" height="200" src="/assets/IMG/template_frog.png"> 
 
 ***
