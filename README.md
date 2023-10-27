@@ -4,7 +4,7 @@ For this project, you will be applying your skills to train a machine learning m
 
 * To get data for your project, you could:
   * use **your own data** from a separate research activity
-  * **scour the internet** to find something original, then preprocess it yourself - for example, [here is a data catalog for Los Angeles](https://data.lacity.org/), maybe you can find something interesting here, or look for data from your home town/city!
+  * **scour the internet** to find something original, then preprocess it yourself - see the Module Overview on BruinLearn for some resources
   * browse an archive of data designed for machine learning problems, such as the [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/datasets)
 
 * Your report should be in the region of 2000-2500 words with three to four figures, and written in a scientific language and style. [This template page](/project.md) gives an example structure that you could use, but feel free to make it your own.
@@ -25,7 +25,7 @@ Using GitHub pages, you can write a website using markdown syntax - the same syn
 3.	From your new repository, you should see a *Quick setup* guide. Scroll down to the bottom of the page and click *Import code*, as shown: [![screenshot][2]][2]
 4.	In the box that says *Your old repository’s clone URL*, copy and paste this URL: `https://github.com/atmosalex/atmosalex.github.io/`, then proceed.
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
-6.	Go to the *Actions* tab and check that the build and deployment action has finished. Once it has, navigate to **[username].github.io** to see your site, which should be a copy of this one!
+6.	If you can see the *Actions* tab, click it and check that the build and deployment action has finished. Once it has, navigate to **[username].github.io** to see your site, which should be a copy of this one! If you cannot see an *Actions* tab, just wait a few minutes then go to your URL to check it is live.
 
 [1]: /assets/IMG/instr_create.png
 [2]: /assets/IMG/instr_import.png
