@@ -27,6 +27,8 @@ Using GitHub pages, you can write a website using markdown syntax - the same syn
 5.	Go to the *Settings* tab, then click *Pages* (under *Code and automation*), and check that the *Build and deployment* section looks like this: [![screenshot][3]][3]
 6.	If you can see the *Actions* tab, click it and check that the build and deployment action has finished. Once it has, navigate to **[username].github.io** to see your site, which should be a copy of this one! If you cannot see an *Actions* tab, just wait a few minutes then go to your URL to check it is live.
 
+Now you are ready to customize your site! To add your name to the site, go to your Github page, edit `_config.yml`, and replace the temporary title with your name.
+
 [1]: /assets/IMG/instr_create.png
 [2]: /assets/IMG/instr_import.png
 [3]: /assets/IMG/instr_bd.png
