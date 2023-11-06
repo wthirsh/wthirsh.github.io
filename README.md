@@ -55,11 +55,7 @@ Now you are ready to customize your site! To add your name to the site, go to yo
 
 ## Delivering your Project
 
-Your final project has three components: a dataset, a report, and your code.
-
-### Dataset
-
-A link to the dataset you used must be submitted on BruinLearn so that your course instructor can use it to run your code. To do this, it might be easiest to upload the dataset to Google Drive, then share a link (click *Share* then *Copy link*). If your dataset is too big to upload, try to find a way to reduce its size, or speak with your instructor if this is not possible.
+Your final project is delivered in two components: a report and your code.
 
 ### Report
 
@@ -69,4 +65,4 @@ To make this simple, you can write the report using a word processor or Latex, t
 
 ### Code
 
-A link to your code must be submitted on BruinLearn, and the course instructor must be able to download and run your code using the dataset. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it. 
+A link to your code must be submitted on BruinLearn, and the course instructor must be able to download your code to mark it. The code could be in a Google Colab notebook (make sure to *share* the notebook so access is set to **Anyone with the link**), or you could upload the code into a separate GitHub repository, or you could upload the code into the `assets` directory of your website and link to it. 
