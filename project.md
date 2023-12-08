@@ -1,6 +1,8 @@
-## My Project
+## Benchmark Glaciers and Machine Learning
 
-I applied machine learning techniques to investigate... Below is my report.
+I applied machine learning techniques to investigate the mass balance trends of  different "benchmark" glaciers
+over the last half-century.
+Below is my report.
 
 ***
 
