@@ -8,10 +8,10 @@ I use GIS and remote sensing methods to answer questions in the realm of biophys
 
 ## Projects
 #### AOS C204 Intro to Machine Learning Final Project
-project.md
+[Benchmark Glaciers and Machine Learning](project.md)
   
 ## Advisor
-Yongwei Sheng (ysheng@geog.ucla.edu)
+Yongwei Sheng, ysheng@geog.ucla.edu
   
 ## Education
 2022  B.A.  Geography & Environmental Studies, summa cum laude, University of California, Los Angeles
