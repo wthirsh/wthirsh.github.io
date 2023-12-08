@@ -8,6 +8,10 @@ I use GIS and remote sensing methods to answer questions in the realm of biophys
 
 ## Projects
 [AOS C204 Final Project: Benchmark Glaciers and Machine Learning](project.md)
+
+## Teaching Experience
+#### Teaching Assistant 
+Geography 7: Introduction to Geographic Information Systems (GIS), Fall 2023
   
 ## Advisor
 Yongwei Sheng, ysheng@geog.ucla.edu
