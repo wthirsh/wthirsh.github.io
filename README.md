@@ -1,14 +1,17 @@
-  My name is William Hirsh and I am a graduate student in the Geography Department at UCLA
-
-  ## Contact
+#### My name is William Hirsh and I am a graduate student in the Geography Department at UCLA
+## Contact
   Email: wthirsh@g.ucla.edu
   Office: Bunche A155
-
-  ## Research
+  
+## Research
   I use GIS and remote sensing methods to answer questions in the realm of biophysical geography. I am particularly interested in how climate change affects high-latitude and alpine environments.
 
-  ## Advisor
+## Projects
+#### AOS C204 Intro to Machine Learning Final Project
+  
+## Advisor
   Yongwei Sheng (ysheng@geog.ucla.edu)
-
-  ## Education
+  
+## Education
   2022  B.A.  Geography & Environmental Studies, summa cum laude, University of California, Los Angeles
+  
