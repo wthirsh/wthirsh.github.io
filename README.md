@@ -1,4 +1,4 @@
-* My name is William Hirsh and I am a graduate stuedent at UCLA Geography
+My name is William Hirsh and I am a graduate student in the Geography Department at UCLA
 
   ## Contact
   Email: wthirsh@g.ucla.edu
