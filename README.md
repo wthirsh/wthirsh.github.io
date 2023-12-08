@@ -7,8 +7,7 @@ Office: Bunche A155
 I use GIS and remote sensing methods to answer questions in the realm of biophysical geography. I am particularly interested in how climate change affects high-latitude and alpine environments.
 
 ## Projects
-#### AOS C204 Intro to Machine Learning Final Project
-[Benchmark Glaciers and Machine Learning](project.md)
+[AOS C204 Final Project: Benchmark Glaciers and Machine Learning](project.md)
   
 ## Advisor
 Yongwei Sheng, ysheng@geog.ucla.edu
