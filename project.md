@@ -19,6 +19,7 @@ Glacialogical data is released by the USGS for its 5 different benchmark glacier
 To briefly visualize what the data looks like in each of the four glacier data files, I have plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
 
 ![](assets/IMG/SC_plot.png){: width="500" }
+Figure 1 (above) shows the measured elevation at each of the in-situ sites on South Cascade Glacier
 
 
 
@@ -78,7 +79,6 @@ Here is how this work could be developed further in a future project.
 
 My project code is available [here](https://colab.research.google.com/drive/1dhLpk-ZUXa-RG0jSgcaCqQ6c3OYZn3J8?usp=sharing)
 
-Here is how this work could be developed further in a future project.
 
 ## References
 
