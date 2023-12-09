@@ -53,9 +53,34 @@ To briefly visualize what the data looks like in each of the four glacier data f
 
 Figure 1 (above) shows the measured elevation at each of the in-situ sites on South Cascade Glacier
 
+When observing the figures, it becomes clear that the sites are not consistent with each other in terms of years used and number of samples collected. To once again simplify this project, only a single site would be used from each glacier. The main factor to decided which sites would be used was a breadth in the number of years a site was active. Each of the site Bs had a long range of years sampled compared to other sites on their respective glaciers, so all site Bs were chosen for consistency, even though this is most likely a coincidence. In a lengthier study moving beyond just machine learning methods, a different apporach for how to aggregate the values from the different sites should be used. It would be best to look to past literature on the Benchmark Glacier Project to get a sense of how this issue is usally resolved. The code to create a "Site B" subset for each benchmark glacier is as follows:
+
+```python
+# Dictionary to store dataframes for each site
+SC_site_dataframes = {}
+W_site_dataframes = {}
+G_site_dataframes = {}
+LC_site_dataframes = {}
+
+# Iterate through groups and store dataframes
+for site, group_df in SC_groupedDF:
+    SC_site_dataframes[site] = group_df
+for site, group_df in W_groupedDF:
+    W_site_dataframes[site] = group_df
+for site, group_df in G_groupedDF:
+    G_site_dataframes[site] = group_df
+for site, group_df in LC_groupedDF:
+    LC_site_dataframes[site] = group_df
+
+# Accessing individual dataframes for each selected site
+SC_site_B_dataframe = SC_site_dataframes['B']
+W_site_B_dataframe = W_site_dataframes['B']
+G_site_B_dataframe = G_site_dataframes['B']
+LC_site_B_dataframe = LC_site_dataframes['B']
+```
 
 
-#### Data used in the project is linked here:
+#### Datasets used in the project are linked here:
 [Gulkana Glacialogical Data](https://drive.google.com/file/d/1KciRCT_4cVXChv1nSc8eOxBHqwMQuBno/view?usp=sharing)
 
 [Wolverine Glacialogical Data](https://drive.google.com/file/d/1xfuH47yD8KlLSmyM8nRQJvXeM015vO0Y/view?usp=sharing)
