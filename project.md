@@ -7,7 +7,7 @@ over the last half-century.
 
 ## Introduction 
 
-I’m working on building a methodology to investigate glaciers and deglaciation using remote sensing data. I plan to use a combination of both MODIS & Landsat/Sentinel data to have decent spatial and temporal resolutions in my study. I’m using the [USGS benchmark glacier project](https://www.usgs.gov/programs/climate-research-and-development-program/science/usgs-benchmark-glacier-project) as a starting point. These five glaciers in Alaska, Washington, and Montana have been monitored in-situ for the past half-century. The USGS releases a wide variety of data on these benchmark glaciers including mass balance measures, preprocessed aerial photographs, and glacier extent shapefiles. My goal is to help formulate a remote sensing methodology to inventory glaciers and deglaciation on a larger scale. In-situ monitoring is simply not feasable on a global scale, so remote sensing methods are needed to study the vast majority of Earth's glaciers. I am particularly interested in answering questions about the downstream effects of melting glaciers and plan to investigate this niche for my master’s project this coming year. This machine learning project serves as a starting point for incorperating machine learning methods into my project. While this project uses benchmark glacier mass balance data, I do hope to apply some of my recently learned machine learning skills into my remote sensing methods in the future.
+I’m working on building a methodology to investigate glaciers and deglaciation using remote sensing data. I plan to use a combination of both MODIS & Landsat/Sentinel data to have decent spatial and temporal resolutions in my study. I’m using the [USGS benchmark glacier project](https://www.usgs.gov/programs/climate-research-and-development-program/science/usgs-benchmark-glacier-project) as a starting point. These five glaciers in Alaska, Washington, and Montana have been monitored in-situ for the past half-century [5]. The USGS releases a wide variety of data on these benchmark glaciers including mass balance measures, preprocessed aerial photographs, and glacier extent shapefiles. My goal is to help formulate a remote sensing methodology to inventory glaciers and deglaciation on a larger scale [5]. In-situ monitoring is simply not feasable on a global scale, so remote sensing methods are needed to study the vast majority of Earth's glaciers. I am particularly interested in answering questions about the downstream effects of melting glaciers and plan to investigate this niche for my master’s project this coming year. This machine learning project serves as a starting point for incorperating machine learning methods into my project. While this project uses benchmark glacier mass balance data, I do hope to apply some of my recently learned machine learning skills into my remote sensing methods in the future.
 
 Machine learning could allow time series prediction with autoregression. Autoregression would potentially allow the prediction of future glacier mass balance based on past mass balance time series data. I wanted to try out using an ARIMA model (or autoregressive integrated moving average), as it is a powerful supervised regression tool which allows the prediction of future values based on past values in a time series. 
 
@@ -130,9 +130,51 @@ stepwise_fit.summary()
 
 At this point inthe project, the scope was narrowed once again to include only the Site B elevation values from Wolverine and Gulkana glaciers, as these were the only datasets to include the optimal 50+ entries to run the ARIMA model [2]. The best (p,d,q) fits for the Wolverine and Gulkana glaciers were (3,1,1) and (0,1,0) respectively
 
+Before running the model, the data must be split into training and test data. Using the guidlines from a helpful post on Stack Overflow, it was determined that using 20% of the data as the test group would be ideal for the ARIMA model [2]. 20% of both the Wolverine Glacier and the Gulkana Glacier Site B Observations ended up being 11. It seems like these glaciers were more consitently monitored than some of the others in the benchmark ensemble. The data for each of the two Site Bs were split into training and testing groups as follows:
+
+```python
+print("SC: ",(len(SC_site_B_dataframe))*0.2)
+print("W: ",(len(W_site_B_dataframe))*0.2)
+print("G: ",(len(G_site_B_dataframe))*0.2)
+print("LC: ",(len(LC_site_B_dataframe))*0.2)
+
+#the last 11 value will be testing data
+trainW = W_site_B_dataframe.iloc[:-11]
+testW = W_site_B_dataframe.iloc[-11:]
+trainG = G_site_B_dataframe.iloc[:-11]
+testG = G_site_B_dataframe.iloc[-11:]
+```
+
+After the data were sorted into training and testing groups, the ARIMA model could be trained. The ARIMA function from the statsmodels library was used here as followed for each of the two glaciers:
 
 
-This is how the method was developed.
+```python
+from statsmodels.tsa.arima.model import ARIMA
+
+#Train the model -- Wolverine
+modelW=ARIMA(trainW['normalized_elevation'],order=(3,1,1)) #best model order comes from the auto_arima above
+modelW=modelW.fit()
+modelW.summary()
+
+#Train the model -- Gulkana
+modelG=ARIMA(trainG['normalized_elevation'],order=(0,1,0)) #best model order comes from the auto_arima above
+modelG=modelG.fit()
+modelG.summary()
+```
+
+Finally, using the test datasets that were initially set aside, the model could be tested for its effectiveness. Predictions were made on the test set as follows:
+
+```python
+#Predictions for Wolverine
+startW=len(trainW)
+endW=len(trainW)+len(testW)-1
+predW=modelW.predict(start=startW,end=endW,typ='levels').rename('ARIMA Predictions')
+
+#Predictions for Gulkana
+startG=len(trainG)
+endG=len(trainG)+len(testG)-1
+predG=modelG.predict(start=startG,end=endG,typ='levels').rename('ARIMA Predictions')
+```
 
 ## Results
 
