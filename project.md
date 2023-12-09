@@ -16,8 +16,9 @@ In the end, applying the ARIMA model to this benchmark glacier data did not prov
 ## Data
 Glacialogical data is released by the USGS for its 5 different benchmark glaciers. This project focuses on the four benchmark glaciers with the greatest number of data entries. Most of the ARIMA analysis is done on only the Wolverine and Gulkana glaciers as only these datasets have more than the reccomended minium of 50 entries for to run the ARIMA model.
 
-To briefly visualize what the data looks like in each of the four glacier data files, I have plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. 
+To briefly visualize what the data looks like in each of the four glacier data files, I have plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
 
+![](assets/IMG/SC_plot.png){: width="500" }
 
 
 
@@ -65,6 +66,13 @@ Here is a brief summary. From this work, the following conclusions can be made:
 
 Here is how this work could be developed further in a future project.
 
+
+## Additional Figures
+![](assets/IMG/G_plot.png){: width="500" }
+
+![](assets/IMG/W_plot.png){: width="500" }
+
+![](assets/IMG/LC_plot.png){: width="500" }
 
 ## Code
 
