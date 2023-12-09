@@ -31,7 +31,7 @@ G_df = pd.DataFrame(G_data)
 LC_df = pd.DataFrame(LC_data)
 ```
 
-After the data for eahc glacier was loaded in as dataframes, the data needed to be grouped by "site_name." In the glacialogical data files, there are data from numerous collection sites. There is a column which indicates from which site the data in a given row come from. While there are potentially better methods for aggregating the data from these different sites, each site on each glacier was kept separate during this project for the sake of simplicity. The data were grouped by "site_name" as shown below:
+After the data for each glacier was loaded in as dataframes, the data needed to be grouped by "site_name." In the glacialogical data files, there are data from numerous collection sites. There is a column which indicates from which site the data in a given row come from. While there are potentially better methods for aggregating the data from these different sites, each site on each glacier was kept separate during this project for the sake of simplicity. The data were grouped by "site_name" as shown below:
 
 ```python
 SC_groupedDF = SC_df.groupby('site_name')
@@ -50,6 +50,7 @@ LC_grouped_dataframes  = [group for _, group in LC_groupedDF]
 To briefly visualize what the data looks like in each of the four glacier data files, I plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
 
 ![](assets/IMG/SC_plot.png){: width="500" }
+
 Figure 1 (above) shows the measured elevation at each of the in-situ sites on South Cascade Glacier
 
 
@@ -102,9 +103,15 @@ Here is how this work could be developed further in a future project.
 ## Additional Figures
 ![](assets/IMG/G_plot.png){: width="500" }
 
+Figure A (above) shows the measured elevation at each of the in-situ sites on Gulkana Glacier
+
 ![](assets/IMG/W_plot.png){: width="500" }
 
+Figure B (above) shows the measured elevation at each of the in-situ sites on Wolverine Glacier
+
 ![](assets/IMG/LC_plot.png){: width="500" }
+
+Figure C (above) shows the measured elevation at each of the in-situ sites on Lemon Creek Glacier
 
 ## Code
 
@@ -113,6 +120,13 @@ My project code is available [here](https://colab.research.google.com/drive/1dhL
 
 ## References
 
+[Autoregressive Integrated Moving Average (ARIMA) Prediction Model](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp#:~:text=An%20autoregressive%20integrated%20moving%20average%2C%20or%20ARIMA%2C%20is%20a%20statistical,values%20based%20on%20past%20values.)
+
+[Guidance on Splitting Training and Testing Data](https://stackoverflow.com/questions/72544161/how-many-training-and-testing-data-should-i-use)
+
+[Time Series Forecasting With ARIMA Model in Python for Temperature Prediction](https://medium.com/swlh/temperature-forecasting-with-arima-model-in-python-427b2d3bcb53)
+
+[USGS Benchmark Glacier Project](https://www.usgs.gov/programs/climate-research-and-development-program/science/usgs-benchmark-glacier-project)
 
 [back](./)
 
