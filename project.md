@@ -80,7 +80,7 @@ LC_site_B_dataframe = LC_site_dataframes['B']
 ```
 Once each glacier Site B was isolated, they could all be plotted for comparison. In the following plot, it becomes apparent that the duration of each glacier's monitoring does not line up well with the others. Nor do the elevations, tho this is expected as the elevtions are only a proxy for mass balance. Later, these elevations were normalized for consistency before models were run.
 
-![](assets/IMG/SiteB_All_plot.png){: width="500" }
+![](assets/IMG/SiteB_All_plot_plot.png){: width="500" }
 
 Figure 2 (above) outines the years in which each glacier had monitoring on its "Site B" and at which elevation the "Site B" point was at any given year
 
