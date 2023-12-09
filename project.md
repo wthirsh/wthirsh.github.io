@@ -49,7 +49,7 @@ LC_grouped_dataframes  = [group for _, group in LC_groupedDF]
 
 To briefly visualize what the data looks like in each of the four glacier data files, I plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
 
-![](assets/IMG/SC_plot.png){: width="500" }
+![](assets/IMG/SC_plot.png)
 
 Figure 1 (above) shows the measured elevation at each of the in-situ sites on South Cascade Glacier
 
@@ -80,7 +80,7 @@ LC_site_B_dataframe = LC_site_dataframes['B']
 ```
 Once each glacier Site B was isolated, they could all be plotted for comparison. In the following plot, it becomes apparent that the duration of each glacier's monitoring does not line up well with the others. Nor do the elevations, tho this is expected as the elevtions are only a proxy for mass balance. Later, these elevations were normalized for consistency before models were run.
 
-![](assets/IMG/SiteB_ALL_plot.png){: width="500" }
+![](assets/IMG/SiteB_ALL_plot.png)
 
 Figure 2 (above) outines the years in which each glacier had monitoring on its "Site B" and at which elevation the "Site B" point was at any given year
 
@@ -130,15 +130,15 @@ Here is how this work could be developed further in a future project.
 
 
 ## Additional Figures
-![](assets/IMG/G_plot.png){: width="500" }
+![](assets/IMG/G_plot.png)
 
 Figure A (above) shows the measured elevation at each of the in-situ sites on Gulkana Glacier
 
-![](assets/IMG/W_plot.png){: width="500" }
+![](assets/IMG/W_plot.png)
 
 Figure B (above) shows the measured elevation at each of the in-situ sites on Wolverine Glacier
 
-![](assets/IMG/LC_plot.png){: width="500" }
+![](assets/IMG/LC_plot.png)
 
 Figure C (above) shows the measured elevation at each of the in-situ sites on Lemon Creek Glacier
 
