@@ -54,8 +54,15 @@ Here is a brief summary. From this work, the following conclusions can be made:
 
 Here is how this work could be developed further in a future project.
 
+
+## Code
+
+My project code is available [here](https://colab.research.google.com/drive/1dhLpk-ZUXa-RG0jSgcaCqQ6c3OYZn3J8?usp=sharing)
+
+Here is how this work could be developed further in a future project.
+
 ## References
-[1] DALL-E 3
+
 
 [back](./)
 
