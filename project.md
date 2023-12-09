@@ -31,7 +31,23 @@ G_df = pd.DataFrame(G_data)
 LC_df = pd.DataFrame(LC_data)
 ```
 
-To briefly visualize what the data looks like in each of the four glacier data files, I have plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
+After the data for eahc glacier was loaded in as dataframes, the data needed to be grouped by "site_name." In the glacialogical data files, there are data from numerous collection sites. There is a column which indicates from which site the data in a given row come from. While there are potentially better methods for aggregating the data from these different sites, each site on each glacier was kept separate during this project for the sake of simplicity. The data were grouped by "site_name" as shown below:
+
+```python
+SC_groupedDF = SC_df.groupby('site_name')
+SC_grouped_dataframes  = [group for _, group in SC_groupedDF]
+
+W_groupedDF = W_df.groupby('site_name')
+W_grouped_dataframes  = [group for _, group in W_groupedDF]
+
+G_groupedDF = G_df.groupby('site_name')
+G_grouped_dataframes  = [group for _, group in G_groupedDF]
+
+LC_groupedDF = LC_df.groupby('site_name')
+LC_grouped_dataframes  = [group for _, group in LC_groupedDF]
+```
+
+To briefly visualize what the data looks like in each of the four glacier data files, I plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
 
 ![](assets/IMG/SC_plot.png){: width="500" }
 Figure 1 (above) shows the measured elevation at each of the in-situ sites on South Cascade Glacier
