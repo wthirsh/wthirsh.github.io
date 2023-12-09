@@ -24,6 +24,11 @@ SC_data = pd.read_csv(SC_filepath)
 W_data = pd.read_csv(W_filepath)
 G_data = pd.read_csv(G_filepath)
 LC_data = pd.read_csv(LC_filepath)
+
+SC_df = pd.DataFrame(SC_data)
+W_df = pd.DataFrame(W_data)
+G_df = pd.DataFrame(G_data)
+LC_df = pd.DataFrame(LC_data)
 ```
 
 To briefly visualize what the data looks like in each of the four glacier data files, I have plotted the recorded elevation (a proxy for mass balance) at each in-situ measuring site on the South Cascade Glacier over time. Figures for the other glaciers can be found in the "Additional Figures" section below.
