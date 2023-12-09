@@ -84,6 +84,22 @@ Once each glacier Site B was isolated, they could all be plotted for comparison.
 
 Figure 2 (above) outines the years in which each glacier had monitoring on its "Site B" and at which elevation the "Site B" point was at any given year
 
+Finally, before the dataframes could be used in models, the elevation data needed to be normalised. This step was not exactly necessary for this project and these applications of machine learning, but normalizing data is generally a good practice when running machine learning models, so it is done here as follows:
+
+```python
+# Function to normalize data using min-max normalization
+def min_max_normalize(data):
+    return (data - data.min()) / (data.max() - data.min())
+
+# Normalize elevation data using min-max normalization
+SC_site_B_dataframe['normalized_elevation'] = min_max_normalize(SC_site_B_dataframe['elevation'])
+W_site_B_dataframe['normalized_elevation'] = min_max_normalize(W_site_B_dataframe['elevation'])
+G_site_B_dataframe['normalized_elevation'] = min_max_normalize(G_site_B_dataframe['elevation'])
+LC_site_B_dataframe['normalized_elevation'] = min_max_normalize(LC_site_B_dataframe['elevation'])
+
+```
+Each elevation value in each glacier Site B Subset is converted to a value between 0 and 1. While this project never compared glacier or sites with each other, normalization is an essential first step in futre comparability. 
+
 #### Datasets used in the project are linked here:
 [Gulkana Glacialogical Data](https://drive.google.com/file/d/1KciRCT_4cVXChv1nSc8eOxBHqwMQuBno/view?usp=sharing)
 
