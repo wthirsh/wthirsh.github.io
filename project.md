@@ -192,21 +192,26 @@ In order to better quantify how well (or poorly, in this case) the model worked 
 
 ![](assets/IMG/table1.png)
 
-Table 1 (above) compares accuracy measurements for the Gulkana and Wolverine ARIMA models
-
+Table 1 (above) compares accuracy measurements for the Gulkana and Wolverine ARIMA models. While the Gulkana RMSE is relatively much lower than Wolverine's, both are extremely high. Neiter model ended up being very effective at all in predicting future time series values. A new model with much better accuracy must be developed before moving forward to predict future values. 
 
 
 ## Discussion
 
-From Figure X, one can see that... [interpretation of Figure X].
+To get a sense of what might work better, a simple linear regression model (also a supervised regression machine learning algorithm) was applied to the Gulkana Glacier Site B Dataset. The Gulkana set was chosen as it had the lower of the two error metrics. The code for the linear regression (which used the LinearRegression in the sklearn library) can be found in the following "Code" section. Setting up a linear regression model was more straight forward than the ARIMA model. After randomly splitting the data into train (80%) and test (20%) sets, a linear model was trained and fitted with the training data. Predictions were made with the testing set and found an RMSE of 0.09234648232264947 and an average error of 14.593024367035964%. These accuracly values are both significantly better than the values from both ARIMA models. While this model is not amazing, it fits the data significantly better than the ARIMA model. The regression model was plotted against the testing points as follows:
+
+![](assets/IMG/SiteB_Gulkana_linearRegression.png)
+
+Figure 5 (above) shows how the linear model for Gulkana glacier predicts normalized elevation values from the testing set
+
+While the linear model does pretty well until the year 2000, the it worsens after about 2010. This could indicate that glacial mass balance may have followed a linear trend to a point, but then became more sporadic towards the present. The data looks like it begins linear but might become cyclical. Using one data set with only about 50 data points is not enough to really delve into the issue. Data should be incorperated from each site on each glacier to get a better sense of the trends.
 
 ## Conclusion
 
-Here is a brief summary. From this work, the following conclusions can be made:
-* first conclusion
-* second conclusion
+In the end, the ARIMA model was not effective at fitting the USGS Benchmark Glacier elevation data. It proved to be significantly worse than a linear regression model. From this work, the following conclusions can be made:
+* A different macine learning algorithm may be more effective in fitting the Benchmark Glacier elevation data. This will take more research to really narrow down. Another approach to supervised regression is probably the best place to start. However, an unsupervised regression or neural network could pull from other data sources beyond just these elevation time series to offer a different approach.
+* Better data preparation could also have made this project more effective. In the end, detailed results were only produced for two Site Bs on two different glaciers. This is extremely limited compared to how much data is available in the glacialogical data files. A way to incorperate data from each site on each glacier into a machine learning approach could be much more informative in trying to understand glacier mass balance treds. Each glacier could be more readily compared to each other if more sites were used.
 
-Here is how this work could be developed further in a future project.
+Future projects could involve a few of the things outlined above like trying out different models or working with more data. However, I would like to spend time incorperating remote sensing data into my study of glaciers. I think machine learning algorithms (particularly random forests and neural networks) could help out quite a bit with image classification and comparison. Moving forward, I hope to incorperate many of my new machine learning skills into my physical geography research. I would also be open to applying machine learning to human geography projects on the side, such as transportation questions. Overall, machine learning (through python and the sklearn library) offers an accessible approach to dealing with large datasets with many dimensions, and I hope it proves useful in the future.
 
 
 ## Additional Figures
