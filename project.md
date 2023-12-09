@@ -178,7 +178,23 @@ predG=modelG.predict(start=startG,end=endG,typ='levels').rename('ARIMA Predictio
 
 ## Results
 
-Figure X shows... [description of Figure X].
+Once predictions were made using the testing dataset, the last 11 terms of the normalized elevation could be plotted alongside the ARIMA predicted values for comparison. The Wolverine Glacier predictions completely missed the mark; they are consitently higher and show the wrong direction trend (positive instead of negative) while the Gulkana Glacier predictions seemed to follow the average normalized elevation value, they do not show the intracaies of the cyclical melt. The plots for each glacier follow:
+
+![](assets/IMG/SiteB_WolverineARIMA.png)
+
+Figure 3 (above) shows the predicted ARIMA model values for the last 11 time steps compared to the actual normalized elevation values for Site B on Wolverine Glacier
+
+![](assets/IMG/SiteB_GulkanaARIMA.png)
+
+Figure 4 (above) shows the predicted ARIMA model values for the last 11 time steps compared to the actual normalized elevation values for Site B on Gulkana Glacier
+
+In order to better quantify how well (or poorly, in this case) the model worked and fit the data, a combination of RMSE (root mean square error) and average error were used. The following table summarized each of the values for each of the two models:
+
+![](assets/IMG/table1.png)
+
+Table 1 (above) compares accuracy measurements for the Gulkana and Wolverine ARIMA models
+
+
 
 ## Discussion
 
