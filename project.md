@@ -111,20 +111,26 @@ Each elevation value in each glacier Site B Subset is converted to a value betwe
 
 
 
-## Modelling
+## Modeling
 
-Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
+One method to forecast timeseries is ARIMA or Autoregressive Integrated Moving Average. ARIMA builds upon autoregression and incorperates differencing (integrated) and moving average [1]. It is a supervised regression technique that allows the prediction of future trends from past data [4]. Since glacier mass is a trend that often shows cycles, I thought it would be interesting to try an ARIMA modeling approach to both better understand past deglaciation and to see if in-situ elevation measurements alone are enough to predict future glacial melt.
 
-The model might involve optimizing some quantity. You can include snippets of code if it is helpful to explain things.
+Before running and fitting the ARIMA model, it is important to decide on model parameters. The parameters needed for the ARIMA model are p, d, and q. AS explained by "Introduction to ARIMA," p, which contributes to the autoregression, is defined as "the number of autoregressive terms," d , which contributes to the integration, is defined as "the number of nonseasonal differences needed for stationarity" and q, which contributes to the moving average, is defined as "the number of lagged forecast errors in the prediction equation"[3]. The auto_arima function from the pmdarima library is able to help decide the best order for an ARIMA model given a dataset; it employs a function to estimate how well each order (with different p, d, and q values) would work for the ARIMA model [4]. In this case, getting a sense of the optimal order from the auto_arima is necessary to run the ARIMA model without iterative trial and error. The code for this function is as follows:
 
 ```python
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.datasets import make_classification
-X, y = make_classification(n_features=4, random_state=0)
-clf = ExtraTreesClassifier(n_estimators=100, random_state=0)
-clf.fit(X, y)
-clf.predict([[0, 0, 0, 0]])
+#Figure out order
+from pmdarima import auto_arima
+stepwise_fit = auto_arima(G_site_B_dataframe['normalized_elevation'], trace=True, suppress_warnings=True)
+
+stepwise_fit.summary()
+
+#Wolverine best model: (3,1,1)
+#Gulkana best model: (0,1,0)
 ```
+
+At this point inthe project, the scope was narrowed once again to include only the Site B elevation values from Wolverine and Gulkana glaciers, as these were the only datasets to include the optimal 50+ entries to run the ARIMA model [2]. The best (p,d,q) fits for the Wolverine and Gulkana glaciers were (3,1,1) and (0,1,0) respectively
+
+
 
 This is how the method was developed.
 
@@ -165,13 +171,15 @@ My project code is available [here](https://colab.research.google.com/drive/1dhL
 
 ## References
 
-[Autoregressive Integrated Moving Average (ARIMA) Prediction Model](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp#:~:text=An%20autoregressive%20integrated%20moving%20average%2C%20or%20ARIMA%2C%20is%20a%20statistical,values%20based%20on%20past%20values.)
+1. [Autoregressive Integrated Moving Average (ARIMA) Prediction Model](https://www.investopedia.com/terms/a/autoregressive-integrated-moving-average-arima.asp#:~:text=An%20autoregressive%20integrated%20moving%20average%2C%20or%20ARIMA%2C%20is%20a%20statistical,values%20based%20on%20past%20values.)
 
-[Guidance on Splitting Training and Testing Data](https://stackoverflow.com/questions/72544161/how-many-training-and-testing-data-should-i-use)
+2. [Guidance on Splitting Training and Testing Data](https://stackoverflow.com/questions/72544161/how-many-training-and-testing-data-should-i-use)
 
-[Time Series Forecasting With ARIMA Model in Python for Temperature Prediction](https://medium.com/swlh/temperature-forecasting-with-arima-model-in-python-427b2d3bcb53)
+3. [Introduction to ARIMA: nonseasonal models](https://people.duke.edu/~rnau/411arim.htm#:~:text=A%20nonseasonal%20ARIMA%20model%20is,errors%20in%20the%20prediction%20equation.)
 
-[USGS Benchmark Glacier Project](https://www.usgs.gov/programs/climate-research-and-development-program/science/usgs-benchmark-glacier-project)
+4. [Time Series Forecasting With ARIMA Model in Python for Temperature Prediction](https://medium.com/swlh/temperature-forecasting-with-arima-model-in-python-427b2d3bcb53)
+
+5. [USGS Benchmark Glacier Project](https://www.usgs.gov/programs/climate-research-and-development-program/science/usgs-benchmark-glacier-project)
 
 [back](./)
 
